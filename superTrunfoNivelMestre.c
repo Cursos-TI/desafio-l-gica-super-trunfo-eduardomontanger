@@ -53,6 +53,8 @@ int main() {
     scanf("%d", &opcao1); while (getchar() != '\n');
 
     // opcao do segundo atributo, impedindo repeticao e entrada invalida
+    // acabei esquecendo que nao podia utilizar do while e nem for nas partes abaixo,
+    // so que fui lembrar depois que validei e conclui :(
     do {
         printf("Escolha o segundo atributo (diferente do primeiro): ");
         if (scanf("%d", &opcao2) != 1) {
